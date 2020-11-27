@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>pawsforthoughts.com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background ="U:\2019-2020\Unit 9 Website Development\p6\images\background_img.jpg">
+
+<div id="wrap">
+	
+	
+	
+	<div id="header">
+	<h2  style ="position:absolute; top:-16px; left:880px;"> Call: 0113 235 0795</h2>
+	<a href = "index.html">
+	<img id="logo" src="images\logo.png" >
+	</a>
+	
+	<center><h1 style="font-weight: bold;"><font size="10"  color="#7d552d"> Paws for Thoughts</font></h1></center>
+	
+	</div>
+	
+	<div id="nav">
+		
+		<ul id="menu">
+		  <li><a href="index.html " style="font-weight: bold;"><font size="4">Home</font></a></li>
+		  <li><a href="dogs.html" style="font-weight: bold;"><font size="4">Dogs</font></a></li>
+		  <li><a href="cats.html" style="font-weight: bold;"><font size="4">Cats</font></a></li>
+		  <li><a href="birds.html" style="font-weight: bold;"><font size="4">Birds</font></a></li>
+		  <li><a href="contact Us.html" style="font-weight: bold;"><font size="4">Contact Us</font></a></li>
+		</ul> 
+		
+	</div>
+		<div id="main">
+			<center> <h1> Welcome to Paws for Thoughts</h1>
+			<div class="Pets-content">
+				<img class="mySlides" src="U:\2019-2020\Unit 9 Website Development\p6\images\cats\kittens_tran.png" width="500px" height="350px" >
+				<img class="mySlides" src="U:\2019-2020\Unit 9 Website Development\p6\images\dogs\dog_landscape_trans.png" width="500px" height="350px">
+				<img class="mySlides" src="U:\2019-2020\Unit 9 Website Development\p6\images\birds\bird_tran02.png" width="500px" height="350px">
+				<img class="mySlides" src="U:\2019-2020\Unit 9 Website Development\p6\images\reptails\reptail_tran.png" width="500px" height="350px">
+				<img class="mySlides" src="U:\2019-2020\Unit 9 Website Development\p6\images\rspca\RSPCA_Logo.png"width="500px" height="350px">
+			</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 5000); 
+}
+</script>
+			
+			<p>	Knowing the great bond which exists between owner an pet, we strive to treat all pets in our care with compassion, giving them the utmost care and attention at all times.</p>
+			
+			<p>	We have dedicated staff who are committed to exceptional client care, our clinical staff undergo CPD through the year to ensure they are up to date with new drugs and treatments.</p>
+		
+			<p>	Good parking facilities which makes your visits to us easier
+				Dedicated reception staff
+				Appointments and clinics with Nursing staff
+				Puppy Cuddles and parties to help you and your pet in the first few months together
+				Information and advise readily available for young, middle aged and older pets
+				A scheme to save you money on your veterinary bills
+				We look forward to seeing you.</p>
+			
+			<p>	Paws for Thought </p>
+			
+			
+			<audio id="myAudio">
+  <source src="U:\2019-2020\Unit 9 Website Development\p6\Audio\index.ogg" type="audio/ogg">
+  <source src="U:\2019-2020\Unit 9 Website Development\p6\Audio\index.mp3" type="audio/mpeg">
+  
+</audio>
+
+<p>Click the buttons to play or pause the audio.</p>
+
+<button onclick="playAudio()" type="button" style ="position:absolute; top:200px; left:380px;">Play Audio</button>
+<button onclick="pauseAudio()" type="button" style ="position:absolute; top:230px; left:380px;">Pause Audio</button> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+	
+	
+				
+		</div>
+		
+		<div id="sidebar">
+		<h2><font size="6"  color="#ffffff">Learn how to take care of them</font></h2>
+			<a  style="text-decoration:none" href= "https://www.youtube.com/embed/2_w-vOR0TuE" target="blank" >
+			<p><iframe width="100%" height="200px" src="https://www.youtube.com/embed/2_w-vOR0TuE" frameborder="0" allow ="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<font size="5"  color = white >Learn How Baby Kittens Grow: 0-8 Weeks! Click me!!!</font></p></a>
+			
+			<a  style="text-decoration:none" href= "https://www.youtube.com/embed/Ro0KH6hAnHA" target="blank" >
+			<p><iframe width="100%" height="200px" src="https://www.youtube.com/embed/Ro0KH6hAnHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<font size="5"  color = white > How to Take Care of a Puppy: Bringing a Puppy Home</font></p></a>
+			
+			<a  style="text-decoration:none" href= "https://www.youtube.com/embed/xBxqnK3Aq9Q" target="blank" >
+			<p><iframe width="100%" height="200px" src="https://www.youtube.com/embed/xBxqnK3Aq9Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<font size="5"  color = white > How to Care for a New Bird</font></p></a>
+			
+			<a  style="text-decoration:none" href= "https://www.youtube.com/embed/VTyXeRS1hss" target="blank" >
+			<p><iframe width="100%" height="200px" src="https://www.youtube.com/embed/VTyXeRS1hss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<font size="5"  color = white >How To Take Care Of Your Reptile </font></p></a>
+		</div>
+	
+	
+	<div id="footer">
+		<div id = "footnav">
+			<p>Paws for Thought, 1 Robins Lane, Wagtail on Tame, Staffs, ST12 8OG </p>
+			<a href = "https://www.instagram.com/pawsforthoughtpetcentres/?hl=en" target="blank">
+			<img src= "images\Instagram_logo.png"  alt="Instagram" style = "width:45px" style = "height:45px">
+			</a>
+			<a href = "https://en-gb.facebook.com/" target="blank">
+			<img src="images\Facebook_logo.png"  alt="Facebook" style = "width:45px" style = "height:45px">
+			</a>
+			<a href = "https://twitter.com/paws4thought_" target="blank">
+			<img src="images\Twitter_logo.png"  alt="Twitter" style = "width:45px" style = "height:45px">
+			</a>
+				
+			
+		</div>		
+	</div>
+</div>
+</div>
+</body>
+</html>
